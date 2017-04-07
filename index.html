@@ -1,0 +1,1092 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion Móvil</title>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+
+ <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema-app3.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link  rel= "stylesheet"href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!--grupo javaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+<body onLoad="MM_preloadImages('imagenes/imag2.png','imagenes/Celular.png','imagenes/gamabaja2.png','imagenes/libro1.1.png','imagenes/libro2.2.png.jpg','imagenes/Comunicaciones.2.png','imagenes/visualC#_2.png');MM_preloadImages('imagenes/redes_2.png','imagenes/S.operativos_2.png','imagenes/java2.png','imagenes/mantenimiento_2.png','imagenes/Programación_JAVA2.png','imagenes/RComputadoras_2.png','imagenes/SQL_2.png','imagenes/visualC#2010.png');MM_preloadImages('imagenes/81LaVywNaDL.jpg')">
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Bibliografia de Programación</h1>
+</div>
+<div data-role="main" class="ui-content">
+</div>
+<div>
+<ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-c">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>ASP.NET 4.0</h2>
+<p>George Shepherd</p>
+</a>
+</li>
+
+<li classs="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Estructura de datos</h2>
+<p>Osvaldo Cairó, Silva Guardati</p></a>
+
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>JAVA como programar</h2>
+<p> Harvey Deitel</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Mantenimiento y reparación de computadoras</h2>
+<p>Editorial Cultural</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Programación en Java</h2>
+<p>C. Thomas Wu</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Comunicaciones y Redes de Computadoras</h2>
+<p>William Stallings</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Visual C# 2010</h2>
+<p>Jonh Sharp</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Fundamentos de REDES</h2>
+<p>Bruce A. Hallberg</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Redes de computadores</h2>
+<p>Andrew S. Tanenbaum</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Programación avanzada con Microsoft SQL SERVER 2005</h2>
+<p>Andrew J. Brust, Stephen Forte</p>
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Sistemas Operativos</h2>
+<p>Jesús Carreto Pérez, Félix García, Pedro de Miguel Anasagasti, Fernando Pérez </p>
+</a>
+</li>
+</ul>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/9788441528246.jpg" alt="9788441528246" title="9788441528246" id="wows1_0"/></li>
+		<li><img src="data1/images/81lavywnadl.jpg" alt="81LaVywNaDL" title="81LaVywNaDL" id="wows1_1"/></li>
+		<li><img src="data1/images/comunicaciones.2.png" alt="Comunicaciones.2" title="Comunicaciones.2" id="wows1_2"/></li>
+		<li><img src="data1/images/comunicaciones.png" alt="Comunicaciones" title="Comunicaciones" id="wows1_3"/></li>
+		<li><img src="data1/images/icon.png" alt="icon" title="icon" id="wows1_4"/></li>
+		<li><img src="data1/images/java2.png" alt="java2" title="java2" id="wows1_5"/></li>
+		<li><img src="data1/images/libro1.1.png" alt="libro1.1" title="libro1.1" id="wows1_6"/></li>
+		<li><img src="data1/images/libro1.png" alt="libro1" title="libro1" id="wows1_7"/></li>
+		<li><img src="data1/images/libro2.2.png.jpg" alt="libro2.2.png" title="libro2.2.png" id="wows1_8"/></li>
+		<li><img src="data1/images/libro2.png" alt="libro2" title="libro2" id="wows1_9"/></li>
+		<li><img src="data1/images/libro3.png" alt="libro3" title="libro3" id="wows1_10"/></li>
+		<li><img src="data1/images/mantenimiento.png" alt="mantenimiento" title="mantenimiento" id="wows1_11"/></li>
+		<li><img src="data1/images/mantenimiento_2.png" alt="mantenimiento_2" title="mantenimiento_2" id="wows1_12"/></li>
+		<li><img src="data1/images/programacin_java.png" alt="Programación_JAVA" title="Programación_JAVA" id="wows1_13"/></li>
+		<li><img src="data1/images/programacin_java2.png" alt="Programación_JAVA2" title="Programación_JAVA2" id="wows1_14"/></li>
+		<li><img src="data1/images/rcomputadoras.png" alt="RComputadoras" title="RComputadoras" id="wows1_15"/></li>
+		<li><img src="data1/images/rcomputadoras_2.png" alt="RComputadoras_2" title="RComputadoras_2" id="wows1_16"/></li>
+		<li><img src="data1/images/redes.png" alt="redes" title="redes" id="wows1_17"/></li>
+		<li><img src="data1/images/redes_2.png" alt="redes_2" title="redes_2" id="wows1_18"/></li>
+		<li><img src="data1/images/s.operativos.png" alt="S.operativos" title="S.operativos" id="wows1_19"/></li>
+		<li><img src="data1/images/s.operativos_2.png" alt="S.operativos_2" title="S.operativos_2" id="wows1_20"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/sql.png" alt="image slider" title="SQL" id="wows1_21"/></a></li>
+		<li><img src="data1/images/sql_2.png" alt="SQL_2" title="SQL_2" id="wows1_22"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="9788441528246"><span><img src="data1/tooltips/9788441528246.jpg" alt="9788441528246"/>1</span></a>
+		<a href="#" title="81LaVywNaDL"><span><img src="data1/tooltips/81lavywnadl.jpg" alt="81LaVywNaDL"/>2</span></a>
+		<a href="#" title="Comunicaciones.2"><span><img src="data1/tooltips/comunicaciones.2.png" alt="Comunicaciones.2"/>3</span></a>
+		<a href="#" title="Comunicaciones"><span><img src="data1/tooltips/comunicaciones.png" alt="Comunicaciones"/>4</span></a>
+		<a href="#" title="icon"><span><img src="data1/tooltips/icon.png" alt="icon"/>5</span></a>
+		<a href="#" title="java2"><span><img src="data1/tooltips/java2.png" alt="java2"/>6</span></a>
+		<a href="#" title="libro1.1"><span><img src="data1/tooltips/libro1.1.png" alt="libro1.1"/>7</span></a>
+		<a href="#" title="libro1"><span><img src="data1/tooltips/libro1.png" alt="libro1"/>8</span></a>
+		<a href="#" title="libro2.2.png"><span><img src="data1/tooltips/libro2.2.png.jpg" alt="libro2.2.png"/>9</span></a>
+		<a href="#" title="libro2"><span><img src="data1/tooltips/libro2.png" alt="libro2"/>10</span></a>
+		<a href="#" title="libro3"><span><img src="data1/tooltips/libro3.png" alt="libro3"/>11</span></a>
+		<a href="#" title="mantenimiento"><span><img src="data1/tooltips/mantenimiento.png" alt="mantenimiento"/>12</span></a>
+		<a href="#" title="mantenimiento_2"><span><img src="data1/tooltips/mantenimiento_2.png" alt="mantenimiento_2"/>13</span></a>
+		<a href="#" title="Programación_JAVA"><span><img src="data1/tooltips/programacin_java.png" alt="Programación_JAVA"/>14</span></a>
+		<a href="#" title="Programación_JAVA2"><span><img src="data1/tooltips/programacin_java2.png" alt="Programación_JAVA2"/>15</span></a>
+		<a href="#" title="RComputadoras"><span><img src="data1/tooltips/rcomputadoras.png" alt="RComputadoras"/>16</span></a>
+		<a href="#" title="RComputadoras_2"><span><img src="data1/tooltips/rcomputadoras_2.png" alt="RComputadoras_2"/>17</span></a>
+		<a href="#" title="redes"><span><img src="data1/tooltips/redes.png" alt="redes"/>18</span></a>
+		<a href="#" title="redes_2"><span><img src="data1/tooltips/redes_2.png" alt="redes_2"/>19</span></a>
+		<a href="#" title="S.operativos"><span><img src="data1/tooltips/s.operativos.png" alt="S.operativos"/>20</span></a>
+		<a href="#" title="S.operativos_2"><span><img src="data1/tooltips/s.operativos_2.png" alt="S.operativos_2"/>21</span></a>
+		<a href="#" title="SQL"><span><img src="data1/tooltips/sql.png" alt="SQL"/>22</span></a>
+		<a href="#" title="SQL_2"><span><img src="data1/tooltips/sql_2.png" alt="SQL_2"/>23</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<center><img src="imagenes/icon.png" width="9%" height="8%"></center>
+</div>
+<div>
+<center><h4>Aplicacion Dos</h4>
+<h4>Leslie Arcos Prieto</h4></center>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> ASP.NET 4.0</h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+  <li><a href="https://mx.casadellibro.com/libro-aspnet-40/9788441528123/1798954" target="_self"> Comprar </a> </li>
+  <li><a href="http://helpermf.weebly.com/blog/free-download-asp-net-40-paso-a-paso-george-shepherd-pdf-programs" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/libro1.1.png',1)">
+<img src="imagenes/libro1.png" width="278" height="381" id="Image21"></a></center></p>
+<h1><p> Índice.</p></h1>
+ <p>¿Para quién es este libro?<br>
+    Cómo empezar<br>
+    Encontrar el mejor punto de partida libro<br>
+    Convenciones utilizadas en este libro<br>
+    Ejemplos del libro</p>
+<p><strong>Parte I. Conceptos básicos</strong></p>
+<p>1. Conceptos básicos de la aplicación Web<br>
+  Peticiones HTTP<br>
+  Peticiones HTTP desde un navegador<br>
+  Realizar peticiones HTTP sin un navegador<br>
+  Lenguaje HTML<br>
+  Contenido dinámico<br>
+  Formularios HTML<br>
+  Common Gateway Interface: muy retro<br>
+  El entorno de Microsoft como servidor Web<br>
+  Internet Information Services<br>
+  Las DLL de extensión ISAPI<br>
+  Ejecutar Internet Information Services<br>
+  ASP Clásico: poner ASP.NET en perspectiva<br>
+  Conceptos del desarrollo Web<br>
+  ASP.NET<br>
+  Referencia rápida</p>
+<p><strong>2. Fundamentos de la aplicación ASP.NET</strong><br>
+  La aplicación convencional Hello World<br>
+  Mezclar HTML con código ejecutable<br>
+  Bloques ejecutables en el servidor<br>
+  Un viaje a través de la arquitectura ASP.NET<br>
+  El modelo de compilación de ASP.NET<br>
+  Opciones de codificación<br>
+  El estilo ASP.NET 1.x<br>
+  Estilo ASP.NET moderno<br>
+  El conducto HTTP de ASP.NET<br>
+  Los conductos de IIS 5.x y de IIS 6.x<br>
+  El conducto integrado en IIS 7.0<br>
+  Utilizar el conducto<br>
+  Visual Studio y ASP.NET<br>
+  Sitios Web IIS locales<br>
+  Sitios Web basados en el sistema de archivos<br>
+  Sitios Web FTP<br>
+  Sitios Web remotos<br>
+  HelloWorld y Visual Studio<br>
+  Referencia rápida</p>
+<p><strong>3. El modelo de interpretación de páginas</strong><br>
+  Interpretar controles como etiquetas<br>
+  Empaquetar la interfaz de usuario en componentes<br>
+  La página que utiliza ASP<br>
+  El modelo de interpretación de la página<br>
+  El árbol de control de la página<br>
+  Añadir controles utilizando Visual Studio<br>
+  Consideraciones de diseño<br>
+  Referencia rápida</p>
+<p><strong>4. Controles personalizados</strong><br>
+  La clase Control<br>
+  Visual Studio y los controles personalizados<br>
+  Un verificador de palíndromos<br>
+  Controles y eventos<br>
+  HtmlTextWriter y los controles<br>
+  Los controles y ViewState<br>
+  Referencia rápida</p>
+<p><strong>5. Controles compuestos</strong><br>
+  Controles compuestos y controles personalizados<br>
+  Controles compuestos personalizados<br>
+  Controles User<br>
+  Cuándo utilizar cada tipo de control<br>
+  Referencia rápida</p>
+<p><strong>6. Popurrí de controles</strong><br>
+  Validación<br>
+  Cómo funciona la validación de página<br>
+  Propiedades del validador<br>
+  Controles de imágenes<br>
+  TreeView<br>
+  MultiView<br>
+  Referencia rápida</p>
+<p><strong>Parte II. Características avanzadas</strong></p>
+<p><strong>7. Un diseño y un comportamiento consistentes</strong><br>
+  Gestionar la consistencia de la interfaz de usuario<br>
+  Páginas maestras en ASP.NET<br>
+  Temas<br>
+  Máscaras<br>
+  Referencia rápida</p>
+<p><strong>8. Configuración</strong><br>
+  Configuración de Windows<br>
+  Configuración de .NET<br>
+  machine.config<br>
+  Manejadores de sección de configuración<br>
+  web.config<br>
+  Administrar la configuración en ASP.NET 1.x<br>
+  Administrar la configuración en versiones posteriores de ASP.NET<br>
+  Configurar ASP.NET desde IIS<br>
+  Referencia rápida</p>
+<p><strong>9. Iniciar sesión</strong><br>
+  Seguridad Web<br>
+  Asegurar IIS<br>
+  Autenticación mediante formularios básica<br>
+  Servicios de autenticación de ASP.NET<br>
+  La clase FormsAuthentication<br>
+  Página de inicio de sesión opcional<br>
+  Administrar usuarios<br>
+  Controles de inicio de sesión de ASP.NET<br>
+  Autorizar usuarios<br>
+  Referencia rápida</p>
+<p><strong>10. Enlace de datos</strong><br>
+  Representar colecciones sin enlace de datos<br>
+  Representar colecciones con enlace de datos<br>
+  Controles basados en ListControl<br>
+  Control TreeView<br>
+  Enlace de datos simple<br>
+  Acceder a bases de datos<br>
+  La historia de la base de datos de .NET<br>
+  Conexiones<br>
+  Comandos<br>
+  Administrar resultados<br>
+  Orígenes de datos en ASP.NET<br>
+  Otros controles de datos enlazados<br>
+  LINQ<br>
+  Referencia rápida</p>
+<p><strong>11. Navegación por sitios Web</strong><br>
+  Navegación en ASP.NET<br>
+  Controles de navegación<br>
+  Mapas del sitio XML<br>
+  SiteMapProvider<br>
+  La clase SiteMap<br>
+  SiteMapNode<br>
+  Utilizar controles de navegación<br>
+  Los controles Menu y TreeView<br>
+  Control SiteMapPath<br>
+  Configuración de SiteMap<br>
+  Construir sitios Web navegables<br>
+  Capturar el evento SiteMapResolve<br>
+  Definir atributos personalizados para cada nodo<br>
+  Reducción de seguridad<br>
+  Asignación de URL<br>
+  Reescribir URL<br>
+  Referencia rápida</p>
+<p><strong>12. Personalización</strong><br>
+  Personalizar las visitas Web<br>
+  Personalización en ASP.NET<br>
+  Perfiles de usuario<br>
+  Proveedores de personalización<br>
+  Utilizar la personalización<br>
+  Definir perfiles en web.config<br>
+  Utilizar información de perfil<br>
+  Guardar cambios en el perfil<br>
+  Perfiles y usuarios<br>
+  Referencia rápida</p>
+<p><strong>13. Elementos Web</strong><br>
+  Breve historia de los elementos Web<br>
+  Ventajas de los elementos Web<br>
+  Desarrollar controles de elementos Web<br>
+  Desarrollo de una página de elementos Web<br>
+  Desarrollo de una aplicación de elementos Web<br>
+  La arquitectura de los elementos Web<br>
+  WebPartManager y WebZones<br>
+  Zonas integradas<br>
+  Elementos Web integrados<br>
+  Desarrollar un elemento Web<br>
+  Referencia rápida</p>
+<p><strong>Parte III. Caché y administración de estado</strong></p>
+<p><strong>14. Estado de sesión</strong><br>
+  ¿Por qué estado de sesión?<br>
+  ASP.NET y el estado de sesión<br>
+  Introducción al estado de sesión<br>
+  Estado de sesión y datos más complejos<br>
+  Configurar el estado de sesión<br>
+  Desactivar el estado de sesión<br>
+  Almacenar el estado de sesión en proceso<br>
+  Almacenar el estado de sesión en un servidor de estado<br>
+  Almacenar el estado de sesión en una base de datos<br>
+  Realizar el seguimiento del estado de sesión<br>
+  Seguimiento del estado de sesión con cookies<br>
+  Seguimiento del estado de sesión con la URL<br>
+  Utilizar la detección automática<br>
+  Aplicar los perfiles de dispositivo<br>
+  Tiempo de espera del estado de sesión<br>
+  Otros ajustes de configuración de sesión<br>
+  El control Wizard: una alternativa al estado de sesión<br>
+  Referencia rápida</p>
+<p><strong>15. Caché de datos de la aplicación</strong><br>
+  Empezar con la caché<br>
+  Utilizar la caché de datos<br>
+  Impacto de la caché<br>
+  Administrar la caché<br>
+  DataSet en memoria<br>
+  Vencimientos de la caché<br>
+  Dependencias de caché<br>
+  La dependencia SQL Server<br>
+  Borrar la caché<br>
+  Referencia rápida</p>
+<p><strong>16. Caché de resultados</strong><br>
+  Almacenar en caché el contenido de la página<br>
+  Administrar el contenido de la caché<br>
+  Modificar la directiva OutputCache<br>
+  La clase HttpCachePolicy<br>
+  Ubicaciones de la caché<br>
+  Dependencias de la caché de resultados<br>
+  Perfiles de caché<br>
+  Almacenar en caché los controles de usuario<br>
+  Cuándo tiene sentido utilizar la caché de resultados<br>
+  Otros proveedores de caché<br>
+  Referencia rápida</p>
+<p><strong>Parte IV. Diagnóstico e instalaciones</strong></p>
+<p><strong>17. Diagnóstico y depuración</strong><br>
+  Seguimiento de la página<br>
+  Activar el seguimiento<br>
+  Instrucciones de seguimiento<br>
+  Seguimiento de la aplicación<br>
+  Activar el seguimiento de forma programática<br>
+  El evento TraceFinished<br>
+  Canalizar otros mensajes de seguimiento<br>
+  Depurar con Visual Studio<br>
+  Páginas de error<br>
+  Excepciones no manejadas<br>
+  Referencia rápida</p>
+<p><strong>18. La clase HttpApplication y los módulos HTTP</strong><br>
+  La aplicación: un punto de encuentro<br>
+  Invalidar HttpApplication<br>
+  Advertencias sobre el estado de la aplicación<br>
+  Manejar eventos<br>
+  Eventos HttpApplication<br>
+  HttpModules<br>
+  Módulos existentes<br>
+  Implementar un módulo<br>
+  Ver módulos activos<br>
+  Almacenar el estado en módulos<br>
+  Global.asax y HttpModules<br>
+  Referencia rápida</p>
+<p><strong>19. Manejadores HTTP</strong><br>
+  Manejadores de peticiones ASP.NET<br>
+  Manejadores predeterminados<br>
+  IHttpHandler y los manejadores<br>
+  Manejadores y estado de sesión<br>
+  Manejadores genéricos (archivos ASHX)<br>
+  Referencia rápida</p>
+<p><strong>Parte V. Datos dinámicos, XBAP, MVC, AJAX y Silverlight</strong></p>
+<p><strong>20. Datos dinámicos</strong><br>
+  Controles de datos dinámicos<br>
+  Más información sobre los datos dinámicos<br>
+  Referencia rápida</p>
+<p><strong>21. ASP.NET y el contenido WPF</strong><br>
+  Mejorar el rendimiento reduciendo viajes de ida y vuelta<br>
+  ¿Qué es WPF?<br>
+  ¿Cómo se relaciona WPF con la Web?<br>
+  Archivos XAML dinámicos<br>
+  Aplicaciones XBAP<br>
+  Contenido WPF y las aplicaciones Web<br>
+  ¿Qué pasa con Silverlight?<br>
+  Referencia rápida</p>
+<p><strong>22. Estructura MVC en ASP.NET</strong><br>
+  La arquitectura MVC (Modelo-Vista-Controlador)<br>
+  ASP.NET y MVC<br>
+  MVC en ASP.NET y los formularios Web<br>
+  MVC y las pruebas<br>
+  Cómo funciona MVC con ASP.NET<br>
+  Seguir la ruta de las peticiones<br>
+  Referencia rápida</p>
+<p><strong>23. AJAX</strong><br>
+  Aplicaciones ricas de Internet<br>
+  ¿Qué es AJAX?<br>
+  ASP.NET y AJAX<br>
+  Razones para utilizar AJAX<br>
+  AJAX en el mundo real<br>
+  AJAX en perspectiva<br>
+  Compatibilidad de servidor de ASP.NET con AJAX<br>
+  Control ScriptManager<br>
+  Control ScriptManagerProxy<br>
+  Control UpdatePanel<br>
+  Control UpdateProgress<br>
+  Control Timer<br>
+  Compatibilidad de AJAX con el cliente<br>
+  El kit de herramientas de control de AJAX para ASP.NET<br>
+  La mezcla del kit de herramientas de control AJAX<br>
+  Familiarizarse con AJAX<br>
+  El control Timer<br>
+  Actualizar el progreso<br>
+  Controles extensores<br>
+  Extensor AutoComplete<br>
+  Un componente modal de tipo diálogo emergente<br>
+  Referencia rápida</p>
+<p><strong>24. Silverlight y ASP.NET</strong><br>
+  Las aplicaciones Web maduran<br>
+  ¿Qué es Silverlight?<br>
+  Crear una aplicación Silverlight<br>
+  Arquitectura<br>
+  XAML<br>
+  Construir el árbol visual<br>
+  XAML y los espacios de nombres<br>
+  Compilar la aplicación Silverlight<br>
+  Añadir contenido Silverlight a una página Web<br>
+  Utilizar la etiqueta Object<br>
+  Utilizar el control de servidor Silverlight en ASP.NET<br>
+  Utilizar la función JavaScript<br>
+  Controles y eventos<br>
+  Eventos enrutados<br>
+  Controles Silverlight y miembros de clase<br>
+  Silverlight y el diseño<br>
+  Integración con HTML<br>
+  Animaciones<br>
+  Servicios WCF y Silverlight<br>
+  Referencia rápida</p>
+<p><strong>Parte VI. Servicios e implementación</strong></p>
+<p><strong>25. Windows Communication Foundation</strong><br>
+  El regreso de la informática distribuida<br>
+  Una API de comunicaciones fragmentada<br>
+  WCF para sistemas conectados<br>
+  Elementos que forman WCF<br>
+  Extremos<br>
+  Canales<br>
+  Comportamientos<br>
+  Mensajes<br>
+  Cómo funciona WCF con ASP.NET<br>
+  En paralelo<br>
+  Modo de compatibilidad de ASP.NET<br>
+  Escribir un servicio WCF<br>
+  Generar un cliente WCF<br>
+  Referencia rápida</p>
+<p><strong>26. Implementación</strong><br>
+  Sitios Web de Visual Studio<br>
+  Sitios Web HTTP<br>
+  Sitios Web FTP<br>
+  Sitio Web basado en el sistema de archivos<br>
+  Precompilar<br>
+  Precompilar por rendimiento<br>
+  Precompilar para la implementación<br>
+  Funcionalidad de implementación en Visual Studio 2010<br>
+  Referencia rápida</p>
+<p>Apéndice. Archivos de ejemplo<br>
+  Descarga de los archivos de ejemplo<br>
+  Uso de los archivos de ejemplo<br>
+  Requisitos del sistema en alfabético</p>
+<h1>&nbsp; </h1>
+
+ 
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+	
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> <center>Estructura de datos</center></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="http://articulo.mercadolibre.com.mx/MLM-565532703-estructuras-de-datos-libro-_JM" target="_self"> Comprar </a> </li>
+  <li><a href="http://www.freelibros.org/programacion/estructuras-de-datos-3ra-edicion-osvaldo-cairo-y-silvia-guardati.html" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+
+  <p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/libro2.2.png.jpg',1)"><img src="imagenes/libro2.png" width="314" height="395" id="Image3"></a></center></p>
+  <p><strong>Contenido:</strong></p>
+  <p>Capítulo 1: Estructuras fundamentales<br>
+    Capítulo 2: Arreglos multidimensionales representados en arreglos unidimensionales<br>
+    Capítulo 3: Pilas y colas<br>
+    Capítulo 4: Recursión<br>
+    Capítulo 5: Listas<br>
+    Capítulo 6: Árboles<br>
+    Capítulo 7: Graficas<br>
+    Capítulo 8: Métodos de ordenación<br>
+    Capítulo 9: Métodos de búsqueda</p>
+  <p><center></center></p>
+  <p>&nbsp;</p>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+   
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><center>JAVA Como programar &quot;Septima Edición&quot;</center></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="http://articulo.mercadolibre.com.mx/MLM-562599586-como-programar-en-java-deitel-7-edicion-digital-_JM?source=gps" target="_self"> Comprar </a> </li>
+  <li><a href="http://www.academia.edu/7427685/Como_programar_en_Java_-_7ma_Edicion_-_P._J._Deitel" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+  <p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/java2.png',1)"><img src="imagenes/libro3.png" width="338" height="353" id="Image8"></a></center></p>
+  <p><strong>Contenido</strong><br>
+  <strong><br>
+  </strong>1 Introducción a las computadoras, Internet y Web<br>
+  2 Introducción a las aplicaciones en Java<br>
+  3 Introducción a las clases y los objetos<br>
+  4 Instrucciones de control: parte<br>
+  5 Instrucciones de control: parte<br>
+  6 Métodos: un análisis más detallado 211<br>
+  7 Arreglos<br>
+  8 Clases y objetos: un análisis más detallado<br>
+  9 Programación orientada a objetos: herencia<br>
+  10 Programación orientada a objetos: polimorfismo<br>
+  11 Componentes de la GUI: parte 1<br>
+  12 Gráficos y Java 2DTM<br>
+  13 Manejo de excepciones<br>
+  14 Archivos y flujos<br>
+  15 Recursividad<br>
+  16 Búsqueda y ordenamiento<br>
+  17 Estructuras de datos<br>
+  18 Genéricos<br>
+  19 Colecciones<br>
+  20 Introducción a los applets de Java<br>
+  21 Multimedia: applets y aplicaciones<br>
+  22 Componentes de la GUI: parte 2<br>
+  23 Subprocesamiento múltiple<br>
+  24 Redes<br>
+  25 Acceso a bases de datos con JDBC<br>
+  26 Aplicaciones Web: parte 1<br>
+  27 Aplicaciones Web: parte 2<br>
+  28 Servicios Web JAX-WS, Web 2.0 y Mash-ups<br>
+  29 Salida con formato<br>
+  30 Cadenas, caracteres y expresiones regulares</p>
+  
+  
+  </div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true"data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><span id="Operadores_nacionales_con_red_propia_.28OMR.29"><center>
+Mantenimiento y reparación de computadoras
+</center></span></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="https://www.maslibros.mx/mantenimiento-y-reparacion-de-computadoras-p-1283" target="_self"> Comprar </a> </li>
+  <li><a href="http://www.grupocultural.com/catalogo-grupo-cultural-detalle.php?id=91&id_categoria=14" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<p><center></center></p>
+<p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/mantenimiento_2.png',1)"><img src="imagenes/mantenimiento.png" width="345" height="387" id="Image9"></a></center></p>
+<p><strong>Contenido</strong></p>
+<ul>
+  <li>La computadora</li>
+	<li>La caja</li>
+	<li>La fuente de alimentaci&oacute;n</li>
+	<li>La placa base</li>
+	<li>Microprocesadores</li>
+	<li>La memoria RAM</li>
+	<li>Tarjetas de ampliaci&oacute;n</li>
+	<li>Dispositivos perif&eacute;ricos</li>
+	<li>El disco duro</li>
+	<li>Dispositivos &oacute;pticos</li>
+	<li>Montaje de una computadora</li>
+	<li>La BIOS (Basic input-output system)</li>
+	<li>El sistema operativo Windows</li>
+	<li>El sistema operativo Linux</li>
+	<li>Configuraci&oacute;n y uso b&aacute;sico del sistema operativo</li>
+	<li>Configuraci&oacute;n de los perif&eacute;ricos</li>
+	<li>Mantenimiento del hardware del PC</li>
+	<li>Mantenimiento del software del PC</li>
+	<li>Hiren&acute;s boot cd</li>
+	<li>DVD: El manual m&aacute;s completo con la informaci&oacute;n m&aacute;s actual para montar su computadora y sacar el m&aacute;ximo partido a todos sus componentes.</li>
+</ul>
+<p><br>
+</p>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> Programación en JAVA</h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="https://www.elsotano.com/libro-programacion-java-introduccion-a-la-programacion-orientada-a-objetos-10274090" target="_self"> Comprar </a> </li>
+  <li><a href="https://www.fiuxy.co/trucos-manuales-y-guias/4595845-introduccion-la-programacion-orientada-objetos-con-java-mega-pdf.html" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+  <p>&nbsp;</P>
+  <p><strong><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/Programación_JAVA2.png',1)"><img src="imagenes/Programación_JAVA.png" width="358" height="443" id="Image10"></a></center></strong></P>
+  <p> <strong> El libro de Programación Orientada a Objetos con Java consta de los siguientes capítulos:</strong><br><br>
+    
+    1. Introducción a la Programación Orientada a Objetos<br>
+    2. Introducción al lenguaje Java<br>
+    3. Fundamentos de la Programación Orientada a Objetos con Java<br>
+    4. Herencia y Polimorfismo<br>
+    5. Manejo de excepciones<br>
+    6. Interfaz gráfica de usuario y applets</P>
+  </p>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true"data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><span id="Operadores_nacionales_con_red_propia_.28OMR.29"><center>
+Comunicaciones y Redes de Computadores
+</center></span></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="https://mx.casadellibro.com/libro-comunicaciones-y-redes-de-computadores-7-ed/9788420541105/967475" target="_self"> Comprar </a> </li>
+  <li><a href="http://www.freelibros.org/redes/comunicaciones-y-redes-de-computadores-7ma-edicion-william-stallings.html" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<ul><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/Comunicaciones.2.png',1)"><img src="imagenes/Comunicaciones.png" width="350" height="447" id="Image4"></a></center>
+<p>&nbsp;</p>
+<p><strong>Contenido</strong></p>
+<p>Prólogo.</p>
+<p>Capítulo 0. Guía del lector</p>
+<p><strong>PARTE I: Descripción general</strong><br>
+  Capítulo 1. Introducción a las comunicaciones de datos y redes<br>
+  Capítulo 2. Arquitectura de protocolos</p>
+<p><strong>PARTE II: Comunicaciones de datos</strong><br>
+  Capítulo 3. Transmisión de datos<br>
+  Capítulo 4. Medios de transmisión<br>
+  Capítulo 5. Técnicas para la codificación de señales<br>
+  Capítulo 6. Técnicas de comunicación de datos digitales<br>
+  Capítulo 7. Protocolos de control del enlace de datos<br>
+  Capítulo 8. Multiplexación<br>
+  Capítulo 9. Espectro expandido</p>
+<p><strong>PARTE III: Redes de área amplia</strong><br>
+  Capítulo 10. Conmutación de circuitos y de paquetes<br>
+  Capítulo 11. Modo de transferencia asíncrono<br>
+  Capítulo 12. Encaminamiento en redes conmutadas<br>
+  Capítulo 13. Congestión en redes de datos<br>
+  Capítulo 14. Redes celulares inalámbricas</p>
+<p><strong>PARTE IV: Redes de área local</strong><br>
+  Capítulo 15. Visión general de las redes de área local<br>
+  Capítulo 16. Redes LAN de alta velocidad<br>
+  Capítulo 17. Redes LAN inalámbricas</p>
+<p><strong>PARTE V: Protocolos de interconexión</strong><br>
+  Capítulo 18. Protocolos de interconexión de redes<br>
+  Capítulo 19. Funcionamiento de la interconexión de redes<br>
+  Capítulo 20. Protocolos de transporte<br>
+  Capítulo 21. Seguridad en redes<br>
+  Capítulo 22. Aplicaciones distribuidas</p>
+<p>Apéndice A. RFC citados en este libro<br>
+  Apéndice B. Análisis de Fourier<br>
+  Apéndice C. Programación de sockets<br>
+  Apéndice D. Proyectos para la enseñanza de comunicaciones de datos y redes de computadores<br>
+  Glosario.<br>
+  Bibliografía.<br>
+  Índice alfabético.</p>
+</ul>
+
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true"data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><span id="Operadores_nacionales_con_red_propia_.28OMR.29"><center>
+  Visual C# 2010
+</center></span></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="https://mx.casadellibro.com/libro-visual-c-2010-paso-a-paso/9788441528246/1805674" target="_self"> Comprar </a> </li>
+  <li><a href="http://book.thedaytonfamily.net/37135-john-sharp-libre-libroselectronicos-descarga-pdf.html" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<ul>
+
+<p>&nbsp;</p>
+<p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image01','','imagenes/81LaVywNaDL.jpg',1)"><img src="imagenes/9788441528246.jpg" name="Image01" width="400" height="403" id="Image01"></a></center></p>
+<p><strong>Contenido:</strong><br>
+  1.Introducción.<br>
+  2.Para quién es este libro.<br>
+  3.Por dónde empezar.<br>
+  4.Convenciones utilizadas en este libro. <br>
+  5.Otras características. <br>
+  6.Requisitos de hardware y software. <br>
+  7.Ejemplos del libro. . . </p>
+
+<p><strong>Parte I.</strong><br>
+<strong>Introducción a Microsoft Visual C# y Microsoft Visual Studio 2010.</strong><br> 
+  
+  Bienvenido a C#.<br>
+  Introducción a la programación con el entorno Visual Studio 2010.<br> 
+  Creación de una aplicación de consola en Visual Studio 2010.<br> 
+  Nuestro primer programa.<br> 
+  Escribir el código mediante Microsoft IntelliSense.<br> 
+  Compilar y ejecutar la aplicación de consola.<br> 
+  Uso de espacios de nombres. Espacios de nombres.<br>
+  Creación de una aplicación gráfica. <br>
+  Creación de una aplicación gráfica en Visual Studio 2010. <br>
+  Creación de la interfaz de usuario. <br>
+  Escriba el código par el botón OK. Referencia rápida.<br> 
+</p>
+ 
+<p>  
+<strong> 2. Funcionamiento de variables, operadores y expresiones. Cómo funcionan las instrucciones.</strong> <br>
+  Uso de los identificadores. <br>
+  Palabras clave.<br>
+  Uso de las variables.  <br>
+  Cómo poner nombre a las variables.<br> 
+  Declaración de variables. <br>
+  Uso de los tipos de datos primitivos. <br>
+  Variables locales sin valor asignado. <br>
+  Mostrar los valores de los tipos de datos primitivos. <br>
+  Mostrar los valores de los tipos de datos primitivos. <br>
+  Uso de los tipos de datos primitivos en el código.<br> 
+  Utilización de los operadores aritméticos.<br>
+  Operadores y tipos. <br>
+  Examinar los operadores aritméticos. <br>
+  Uso de los operadores aritméticos. <br>
+  Examine el código del programa MathsOperators.<br> 
+  Orden de precedencia de los operadores. <br>
+  Uso de la asociatividad para evaluar las expresiones. <br>
+  La asociatividad y el operador de asignación </p>
+<p>&nbsp;</p>
+</ul>
+
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true"data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><span id="Operadores_nacionales_con_red_propia_.28OMR.29"><center>
+FUNDAMENTOS DE REDES
+</center></span></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="https://mx.casadellibro.com/libro-fundamentos-de-redes/9789701058961/1108282" target="_self"> Comprar </a> </li>
+  <li><a href="http://www.freelibros.org/redes/fundamentos-de-redes-4ta-edicion-bruce-hallberg.html" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<ul><p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/redes_2.png',1)"><img src="imagenes/redes.png" width="254" height="371" id="Image6"></a></center></p>
+      <p><strong>Contenido:</strong></p>
+      <p><strong>Parte I. Fundamentos de la conectividad de redes</strong></p>
+      <p>1. El negocio de la conectividad<br>
+        2. Presentación de las bases<br>
+        3. La conectividad de redes<br>
+        4. Cableado de las redes<br>
+        5. Conectividad de redes domésticas<br>
+        6. Comprensión del hardware de las redes<br>
+        7. Conexiones entre WAN<br>
+        8. Protocolos de conectividad de redes<br>
+        9. Servicios de directorio<br>
+        10. Conexiones a larga distancia: acceso remoto a redes<br>
+        11. Asegurando su red<br>
+        12. Restablecimiento de los desastres de la red<br>
+        13. Servidores de red: todo lo que quería saber, pero temía preguntar<br>
+        14. Compra y administración de computadoras cliente</p>
+      <p><strong>Parte II. Conocimiento por medio de la práctica</strong></p>
+      <p>15. Diseño de una red<br>
+        16. Instalación y confi guración de Windows 2000 Server<br>
+        17. Administración de Windows 2000 Server: los fundamentos<br>
+        18. Otros servicios de Windows 2000 Server<br>
+        19. Windows Server 2003<br>
+        20. Instalación de Windows Server 2003<br>
+        21. Confi guración de Windows Server 2003<br>
+        22. Instalación de Linux con una confi guración de servidor<br>
+        23. Introducción a la administración de los sistemas Linux<br>
+        24. Confi guración de un servidor web Linux con Apache<br>
+        Glosario<br>
+        Índice</p>
+</ul>
+
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina9" data-add-back-btn="true"data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><span id="Operadores_nacionales_con_red_propia_.28OMR.29"><center>
+Redes de Computadoras
+</center></span></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="http://www.gandhi.com.mx/redes-de-computadoras" target="_self"> Comprar </a> </li>
+  <li><a href="http://www.freelibros.org/redes/redes-de-computadoras-4ta-edicion-andrew-s-tanenbaum-2.html" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<ul>
+     
+      <p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/RComputadoras_2.png',1)"><img src="imagenes/RComputadoras.png" width="374" height="402" id="Image11"></a></center></p>
+      <p><strong>Contenido:</strong></p>
+      <p>Prefacio<br>
+        1. Introducción<br>
+        2. La capa física<br>
+        3. La capa de enlace de datos<br>
+        4. La subcapa de control de acceso al medio<br>
+        5. La capa de red<br>
+        6. La capa de transporte<br>
+        7. La capa de aplicación<br>
+        8. Seguridad en redes<br>
+        9. Lista de lecturas y bibliografía</p>
+</ul>
+
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina10" data-add-back-btn="true"data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><span id="Operadores_nacionales_con_red_propia_.28OMR.29"><center>
+SQL SERVER 2005
+</center></span></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="https://www.amazon.com.mx/Programming-Microsoft-SQL-Server-2005/dp/0735619239" target="_self"> Comprar </a> </li>
+  <li><a href="https://www.ugiss.org/2009/01/24/download-ebook-microsoft-sql-server-2005-integration-services-step-by-step/" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<ul><p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/SQL_2.png',1)"><img src="imagenes/SQL.png" width="344" height="366" id="Image12"></a></center></p>
+      <p><strong>Contenido:</strong> </p>
+      <p>
+<strong>Parte I: El diseño de los datos básicos y tecnologías clave: </strong><br>
+        1. General; <br>
+        2. Las implementaciones T -SQL en SQL Server 2005; <br>
+        3. Visión general de CLR para SQL; <br>
+        4. XML y bases de datos relacionales; <br>
+        5. Introducción a SQL Server Management Studio; <br>
+        6. El uso de objetos SMO (SQL Server Management Object); <br>
+        
+        7. Protección de SQL Server 2005; </p>
+        <p>
+<strong>Parte II. appliapplicazioni y de mejora de las tecnologías de desarrollo:</strong> <br>
+        8. ADO.NET 2.0, Juguetes mecanografiados conjuntos de datos y los datos de la Asociación .NET; <br>
+        9. depuración; <br>
+        10. Servicios Web XML nativos en SQL Server 2005; <br>
+        11. transacciones; <br>
+        12. SQL Server Service Broker: El nuevo middleware; <br>
+        13. Uso de SQL Server 2005 Notification Services; <br>
+        14. Desarrollo de aplicaciones de escritorio con SQL Server Express Edition; <br>
+        Desarrollo 15. Aplicación con SQL Server 2005 Everywhere Edition y duplicación de mezcla de SQL Server; </p>
+       
+ <p><strong>Parte III. Presentación de informes y Business Intelligence:</strong> <br>
+        16. Uso de SQL Server 2005 Integration Services; <br>
+        17. OLAP básico; <br>
+        18. OLAP avanzada; <br>
+        19. aplicaciones OLAP de desarrollo; <br>
+        20. Ampliación del sistema de base de datos con la minería de datos; <br>
+      21. Servicios de Información.</p>
+      <p>&nbsp;</p>
+</ul>
+
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina11" data-add-back-btn="true"data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1><span id="Operadores_nacionales_con_red_propia_.28OMR.29"><center>
+  SISTEMAS OPERATIVOS
+</center></span></h1>
+</div>
+<div data-role="content" align="center">
+<div data-role="collapsible" data-content-theme="false">
+<h2>Comprar o descargar</h2>
+<div>
+<br>
+</div>
+<div>
+<li><a href="http://articulo.mercadolibre.com.uy/MLU-443493123-sistemas-operativos-una-vision-aplicada-_JM" target="_self"> Comprar </a> </li>
+  <li><a href="http://www.freelibros.org/sistemas-operativos/sistemas-operativos-una-vision-aplicada.html" target="_self"> Descargar </a> </li>
+</div>
+</div>
+</div>
+<div>
+<ul>
+     
+      <p><center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/S.operativos_2.png',1)"><img src="imagenes/S.operativos.png" width="385" height="500" id="Image7"></a></center></p>
+      <p><strong>Contenido:</strong></p>
+      <p>01. Conceptos arquitectónicos de la computadora<br>
+        02. Introducción a los sistemas operativos<br>
+        03. Procesos<br>
+        04. Gestión de memoeria<br>
+        05. Comunicación y sincronización de procesos<br>
+        06. Interbloqueos<br>
+        07. Entrada/Salida<br>
+        08. Gestión de archivos y directorios<br>
+        09. Seguridad y protección<br>
+        10. Introducción a los sistemas distribuidos<br>
+        11. Estudio de casos: Linux<br>
+        12. Estudio de casos: Windows NT<br>
+        Apéndice:<br>
+        a. Comparación de los servicios POSIX y Win32<br>
+        b. Entorno de programación de sistemas operativos</p>
+</ul>
+
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion Dos,LAP</h4>
+
+
+</div>
+</div>
+
+</body>
+</html>

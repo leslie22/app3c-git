@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>24</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>visor1</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/angular/</ImageTemplate>
+            <ImageTemplateName>Angular</ImageTemplateName>
+            <ImageWidth>830</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/leslie/Documents/WOW Slider/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/Users/leslie/Documents/WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#5f32a3</TemplateColor>
+            <TemplateFont>Play</TemplateFont>
+            <TemplateName>angular</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/9788441528246.jpg</url>
+                <title>9788441528246</title>
+                <filesize>114644</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/81LaVywNaDL.jpg</url>
+                <title>81LaVywNaDL</title>
+                <filesize>448981</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/Comunicaciones.2.png</url>
+                <title>Comunicaciones.2</title>
+                <filesize>383938</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/Comunicaciones.png</url>
+                <title>Comunicaciones</title>
+                <filesize>224244</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/icon.png</url>
+                <title>icon</title>
+                <filesize>32210</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/java2.png</url>
+                <title>java2</title>
+                <filesize>2485882</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/libro1.1.png</url>
+                <title>libro1.1</title>
+                <filesize>237756</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/libro1.png</url>
+                <title>libro1</title>
+                <filesize>111337</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/libro2.2.png.jpg</url>
+                <title>libro2.2.png</title>
+                <filesize>1897669</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/libro2.png</url>
+                <title>libro2</title>
+                <filesize>328740</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/libro3.png</url>
+                <title>libro3</title>
+                <filesize>384753</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/mantenimiento.png</url>
+                <title>mantenimiento</title>
+                <filesize>2263806</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/mantenimiento_2.png</url>
+                <title>mantenimiento_2</title>
+                <filesize>1964577</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/Programación_JAVA.png</url>
+                <title>Programación_JAVA</title>
+                <filesize>131578</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/Programación_JAVA2.png</url>
+                <title>Programación_JAVA2</title>
+                <filesize>2115151</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/RComputadoras.png</url>
+                <title>RComputadoras</title>
+                <filesize>1566691</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/RComputadoras_2.png</url>
+                <title>RComputadoras_2</title>
+                <filesize>1746177</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/redes.png</url>
+                <title>redes</title>
+                <filesize>24041</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/redes_2.png</url>
+                <title>redes_2</title>
+                <filesize>1101914</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/S.operativos.png</url>
+                <title>S.operativos</title>
+                <filesize>23950</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/S.operativos_2.png</url>
+                <title>S.operativos_2</title>
+                <filesize>380847</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/SQL.png</url>
+                <title>SQL</title>
+                <filesize>1342677</filesize>
+            </Image>
+            <Image>
+                <url>D:/DAM/Segundo Parcial/Aplicaciones/app3/imagenes/SQL_2.png</url>
+                <title>SQL_2</title>
+                <filesize>1535370</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
